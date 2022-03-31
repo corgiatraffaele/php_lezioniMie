@@ -1,0 +1,7 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "spatie/image": "^2.0",
+        "simplesoftwareio/simple-qrcode": "~4"
+    }
+}
