@@ -5,4 +5,4 @@ usa doctrine e blade(implementa la view)
 comandi:
 php artisan serve 
 php artisan list
-y
+

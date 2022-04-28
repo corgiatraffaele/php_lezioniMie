@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::view('helloView','hello');
+
+//Route::get('/helloCon','HelloController@hello');
+
+
 Route::get('/utente/{user}', function ($user) {
     return 'Raff';
 });
@@ -29,4 +34,6 @@ Route::get('/', function () {
 Route::get('/hello', function () {
     return "Hello World";
 });
+
+
 
